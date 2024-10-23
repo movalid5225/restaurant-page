@@ -1,0 +1,67 @@
+body{
+    display: grid;
+    grid-template-rows:100px 1fr;
+    min-height: 100vh;
+    background-color: rgb(65, 105, 105);
+}
+
+#nav1{
+    display: flex;
+    justify-content: center;
+    gap:190px;
+    color: rgb(190, 190, 190);
+    font-size: 45px;
+    padding:20px;
+}
+
+#nav1 button{
+    background-color: rgb(65, 105, 105);
+    color: rgb(190, 190, 190);
+    border: none;
+}
+#nav1 button:hover {
+    background-color: rgb(85, 125, 125);
+    color: white;
+}
+
+#content{
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.home-page {
+    background-color: rgb(255, 255, 240); /* Off-white */
+    padding: 20px;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+
+}
+
+.about-page {
+    background-color: rgb(230, 230, 250); /* Light lavender */
+    padding: 20px;
+    text-align: center;
+    font-family: 'Georgia', serif;
+}
+
+.dishes-page{
+    background-color: rgb(240, 255, 240); /* Light green */
+    padding: 20px;
+    text-align: center;
+    font-family: 'Verdana', sans-serif;
+}
+
+.contact-page {
+    background-color: rgb(240, 255, 240); /* Light green */
+    padding: 20px;
+    text-align: center;
+    font-family: 'Verdana', sans-serif;
+}
+
+
+*{
+    margin:0;
+}
+
