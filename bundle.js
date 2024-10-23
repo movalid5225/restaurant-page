@@ -110,53 +110,63 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
 
 /***/ }),
 
-/***/ "./src/about.js":
-/*!**********************!*\
-  !*** ./src/about.js ***!
-  \**********************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   about: () => (/* binding */ about)\n/* harmony export */ });\nconst about = ()=> {\n    const content = document.getElementById(\"content\");\n\n    const header1 = document.createElement(\"div\");\n    header1.textContent = \"About our restaurant\";\n\n    const moreWords = document.createElement(\"div\");\n    moreWords.innerHTML = \"this is more wokds about our beautiful restaurant that we have <br> here so feel free to look to your hearts content.\"\n\n    content.appendChild(header1);\n    content.appendChild(moreWords);\n\n}//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvYWJvdXQuanMiLCJtYXBwaW5ncyI6Ijs7OztBQUFPO0FBQ1A7O0FBRUE7QUFDQTs7QUFFQTtBQUNBOztBQUVBO0FBQ0E7O0FBRUEiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9yZXN0YXVyYW50LXBhZ2UvLi9zcmMvYWJvdXQuanM/NTg2NCJdLCJzb3VyY2VzQ29udGVudCI6WyJleHBvcnQgY29uc3QgYWJvdXQgPSAoKT0+IHtcbiAgICBjb25zdCBjb250ZW50ID0gZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoXCJjb250ZW50XCIpO1xuXG4gICAgY29uc3QgaGVhZGVyMSA9IGRvY3VtZW50LmNyZWF0ZUVsZW1lbnQoXCJkaXZcIik7XG4gICAgaGVhZGVyMS50ZXh0Q29udGVudCA9IFwiQWJvdXQgb3VyIHJlc3RhdXJhbnRcIjtcblxuICAgIGNvbnN0IG1vcmVXb3JkcyA9IGRvY3VtZW50LmNyZWF0ZUVsZW1lbnQoXCJkaXZcIik7XG4gICAgbW9yZVdvcmRzLmlubmVySFRNTCA9IFwidGhpcyBpcyBtb3JlIHdva2RzIGFib3V0IG91ciBiZWF1dGlmdWwgcmVzdGF1cmFudCB0aGF0IHdlIGhhdmUgPGJyPiBoZXJlIHNvIGZlZWwgZnJlZSB0byBsb29rIHRvIHlvdXIgaGVhcnRzIGNvbnRlbnQuXCJcblxuICAgIGNvbnRlbnQuYXBwZW5kQ2hpbGQoaGVhZGVyMSk7XG4gICAgY29udGVudC5hcHBlbmRDaGlsZChtb3JlV29yZHMpO1xuXG59Il0sIm5hbWVzIjpbXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./src/about.js\n");
-
-/***/ }),
-
-/***/ "./src/contact.js":
-/*!************************!*\
-  !*** ./src/contact.js ***!
-  \************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   contact: () => (/* binding */ contact)\n/* harmony export */ });\nconst contact = ()=> {\n\n    const content = document.getElementById(\"content\");\n\n    const header1 = document.createElement(\"div\");\n    header1.textContent = \"Contact Us!\";\n\n    const moreWords = document.createElement(\"div\");\n    moreWords.innerHTML = \"this is more wokds about our beautiful restaurant that we have <br> here so feel free to look to your hearts content.\"\n\n    content.appendChild(header1);\n    content.appendChild(moreWords);\n\n}//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvY29udGFjdC5qcyIsIm1hcHBpbmdzIjoiOzs7O0FBQU87O0FBRVA7O0FBRUE7QUFDQTs7QUFFQTtBQUNBOztBQUVBO0FBQ0E7O0FBRUEiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9yZXN0YXVyYW50LXBhZ2UvLi9zcmMvY29udGFjdC5qcz9kNTY1Il0sInNvdXJjZXNDb250ZW50IjpbImV4cG9ydCBjb25zdCBjb250YWN0ID0gKCk9PiB7XG5cbiAgICBjb25zdCBjb250ZW50ID0gZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoXCJjb250ZW50XCIpO1xuXG4gICAgY29uc3QgaGVhZGVyMSA9IGRvY3VtZW50LmNyZWF0ZUVsZW1lbnQoXCJkaXZcIik7XG4gICAgaGVhZGVyMS50ZXh0Q29udGVudCA9IFwiQ29udGFjdCBVcyFcIjtcblxuICAgIGNvbnN0IG1vcmVXb3JkcyA9IGRvY3VtZW50LmNyZWF0ZUVsZW1lbnQoXCJkaXZcIik7XG4gICAgbW9yZVdvcmRzLmlubmVySFRNTCA9IFwidGhpcyBpcyBtb3JlIHdva2RzIGFib3V0IG91ciBiZWF1dGlmdWwgcmVzdGF1cmFudCB0aGF0IHdlIGhhdmUgPGJyPiBoZXJlIHNvIGZlZWwgZnJlZSB0byBsb29rIHRvIHlvdXIgaGVhcnRzIGNvbnRlbnQuXCJcblxuICAgIGNvbnRlbnQuYXBwZW5kQ2hpbGQoaGVhZGVyMSk7XG4gICAgY29udGVudC5hcHBlbmRDaGlsZChtb3JlV29yZHMpO1xuXG59Il0sIm5hbWVzIjpbXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./src/contact.js\n");
-
-/***/ }),
-
-/***/ "./src/dishes.js":
-/*!***********************!*\
-  !*** ./src/dishes.js ***!
-  \***********************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   dishes: () => (/* binding */ dishes)\n/* harmony export */ });\n\n\nconst dishes = ()=> {\n\n    const content = document.getElementById(\"content\");\n\n    const header1 = document.createElement(\"div\");\n    header1.textContent = \"Our dishes!\";\n\n    const moreWords = document.createElement(\"div\");\n    moreWords.innerHTML = \"this is more wokds about our beautiful restaurant that we have <br> here so feel free to look to your hearts content.\"\n\n    const dishImage = document.createElement('img');\n    dishImage.src = './images/dishes.jpg';\n\n    content.appendChild(dishImage);\n    content.appendChild(header1);\n    content.appendChild(moreWords);\n\n}//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvZGlzaGVzLmpzIiwibWFwcGluZ3MiOiI7Ozs7OztBQUVPOztBQUVQOztBQUVBO0FBQ0E7O0FBRUE7QUFDQTs7QUFFQTtBQUNBOztBQUVBO0FBQ0E7QUFDQTs7QUFFQSIsInNvdXJjZXMiOlsid2VicGFjazovL3Jlc3RhdXJhbnQtcGFnZS8uL3NyYy9kaXNoZXMuanM/NjBlMiJdLCJzb3VyY2VzQ29udGVudCI6WyJcblxuZXhwb3J0IGNvbnN0IGRpc2hlcyA9ICgpPT4ge1xuXG4gICAgY29uc3QgY29udGVudCA9IGRvY3VtZW50LmdldEVsZW1lbnRCeUlkKFwiY29udGVudFwiKTtcblxuICAgIGNvbnN0IGhlYWRlcjEgPSBkb2N1bWVudC5jcmVhdGVFbGVtZW50KFwiZGl2XCIpO1xuICAgIGhlYWRlcjEudGV4dENvbnRlbnQgPSBcIk91ciBkaXNoZXMhXCI7XG5cbiAgICBjb25zdCBtb3JlV29yZHMgPSBkb2N1bWVudC5jcmVhdGVFbGVtZW50KFwiZGl2XCIpO1xuICAgIG1vcmVXb3Jkcy5pbm5lckhUTUwgPSBcInRoaXMgaXMgbW9yZSB3b2tkcyBhYm91dCBvdXIgYmVhdXRpZnVsIHJlc3RhdXJhbnQgdGhhdCB3ZSBoYXZlIDxicj4gaGVyZSBzbyBmZWVsIGZyZWUgdG8gbG9vayB0byB5b3VyIGhlYXJ0cyBjb250ZW50LlwiXG5cbiAgICBjb25zdCBkaXNoSW1hZ2UgPSBkb2N1bWVudC5jcmVhdGVFbGVtZW50KCdpbWcnKTtcbiAgICBkaXNoSW1hZ2Uuc3JjID0gJy4vaW1hZ2VzL2Rpc2hlcy5qcGcnO1xuXG4gICAgY29udGVudC5hcHBlbmRDaGlsZChkaXNoSW1hZ2UpO1xuICAgIGNvbnRlbnQuYXBwZW5kQ2hpbGQoaGVhZGVyMSk7XG4gICAgY29udGVudC5hcHBlbmRDaGlsZChtb3JlV29yZHMpO1xuXG59Il0sIm5hbWVzIjpbXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./src/dishes.js\n");
-
-/***/ }),
-
-/***/ "./src/home.js":
-/*!*********************!*\
-  !*** ./src/home.js ***!
-  \*********************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   home: () => (/* binding */ home)\n/* harmony export */ });\nconst home = ()=> {\n    const content = document.getElementById(\"content\");\n\n    const header1 = document.createElement(\"div\");\n    header1.textContent = \"Welcome to our restaurant\";\n\n    const moreWords = document.createElement(\"div\");\n    moreWords.innerHTML = \"this is more wokds about our beautiful restaurant that we have <br> here so feel free to look to your hearts content.\"\n\n    content.appendChild(header1);\n    content.appendChild(moreWords);\n\n}//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvaG9tZS5qcyIsIm1hcHBpbmdzIjoiOzs7O0FBQU87QUFDUDs7QUFFQTtBQUNBOztBQUVBO0FBQ0E7O0FBRUE7QUFDQTs7QUFFQSIsInNvdXJjZXMiOlsid2VicGFjazovL3Jlc3RhdXJhbnQtcGFnZS8uL3NyYy9ob21lLmpzPzdiNDEiXSwic291cmNlc0NvbnRlbnQiOlsiZXhwb3J0IGNvbnN0IGhvbWUgPSAoKT0+IHtcbiAgICBjb25zdCBjb250ZW50ID0gZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoXCJjb250ZW50XCIpO1xuXG4gICAgY29uc3QgaGVhZGVyMSA9IGRvY3VtZW50LmNyZWF0ZUVsZW1lbnQoXCJkaXZcIik7XG4gICAgaGVhZGVyMS50ZXh0Q29udGVudCA9IFwiV2VsY29tZSB0byBvdXIgcmVzdGF1cmFudFwiO1xuXG4gICAgY29uc3QgbW9yZVdvcmRzID0gZG9jdW1lbnQuY3JlYXRlRWxlbWVudChcImRpdlwiKTtcbiAgICBtb3JlV29yZHMuaW5uZXJIVE1MID0gXCJ0aGlzIGlzIG1vcmUgd29rZHMgYWJvdXQgb3VyIGJlYXV0aWZ1bCByZXN0YXVyYW50IHRoYXQgd2UgaGF2ZSA8YnI+IGhlcmUgc28gZmVlbCBmcmVlIHRvIGxvb2sgdG8geW91ciBoZWFydHMgY29udGVudC5cIlxuXG4gICAgY29udGVudC5hcHBlbmRDaGlsZChoZWFkZXIxKTtcbiAgICBjb250ZW50LmFwcGVuZENoaWxkKG1vcmVXb3Jkcyk7XG5cbn0iXSwibmFtZXMiOltdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./src/home.js\n");
-
-/***/ }),
-
 /***/ "./src/index.js":
 /*!**********************!*\
   !*** ./src/index.js ***!
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _styles_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles.css */ \"./src/styles.css\");\n/* harmony import */ var _about_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./about.js */ \"./src/about.js\");\n/* harmony import */ var _home_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./home.js */ \"./src/home.js\");\n/* harmony import */ var _contact_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./contact.js */ \"./src/contact.js\");\n/* harmony import */ var _dishes_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./dishes.js */ \"./src/dishes.js\");\n\n\n\n\n\n\n\nconst clear = ()=>{\n    const content = document.getElementById(\"content\");\n    while(content.firstChild){\n        content.removeChild(content.firstChild);\n    }\n\n}\n\ndocument.addEventListener('click', (event) => {\n    if (event.target.matches('#about')) {\n        clear();\n        content.classList.add('about-page');  \n        (0,_about_js__WEBPACK_IMPORTED_MODULE_1__.about)();\n    }\n\n    if (event.target.matches('#home')) {\n        clear();\n        content.classList.add('home-page');  \n        (0,_home_js__WEBPACK_IMPORTED_MODULE_2__.home)();\n    }\n\n    if (event.target.matches('#contact')) {\n        clear();\n        content.classList.add('contact-page'); \n        (0,_contact_js__WEBPACK_IMPORTED_MODULE_3__.contact)();\n    }\n\n    if(event.target.matches(\"#dishes\")){\n        clear();\n        content.classList.add('dishes-page'); \n        (0,_dishes_js__WEBPACK_IMPORTED_MODULE_4__.dishes)();\n    }\n});//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvaW5kZXguanMiLCJtYXBwaW5ncyI6Ijs7Ozs7O0FBQXNCO0FBQ1c7QUFDRjtBQUNNO0FBQ0Y7OztBQUduQztBQUNBO0FBQ0E7QUFDQTtBQUNBOztBQUVBOztBQUVBO0FBQ0E7QUFDQTtBQUNBO0FBQ0EsUUFBUSxnREFBSztBQUNiOztBQUVBO0FBQ0E7QUFDQTtBQUNBLFFBQVEsOENBQUk7QUFDWjs7QUFFQTtBQUNBO0FBQ0E7QUFDQSxRQUFRLG9EQUFPO0FBQ2Y7O0FBRUE7QUFDQTtBQUNBO0FBQ0EsUUFBUSxrREFBTTtBQUNkO0FBQ0EsQ0FBQyIsInNvdXJjZXMiOlsid2VicGFjazovL3Jlc3RhdXJhbnQtcGFnZS8uL3NyYy9pbmRleC5qcz9iNjM1Il0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBcIi4vc3R5bGVzLmNzc1wiO1xuaW1wb3J0IHthYm91dH0gZnJvbSAnLi9hYm91dC5qcyc7XG5pbXBvcnQge2hvbWV9IGZyb20gJy4vaG9tZS5qcyc7XG5pbXBvcnQge2NvbnRhY3R9IGZyb20gJy4vY29udGFjdC5qcyc7XG5pbXBvcnQge2Rpc2hlc30gZnJvbSAnLi9kaXNoZXMuanMnO1xuXG5cbmNvbnN0IGNsZWFyID0gKCk9PntcbiAgICBjb25zdCBjb250ZW50ID0gZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoXCJjb250ZW50XCIpO1xuICAgIHdoaWxlKGNvbnRlbnQuZmlyc3RDaGlsZCl7XG4gICAgICAgIGNvbnRlbnQucmVtb3ZlQ2hpbGQoY29udGVudC5maXJzdENoaWxkKTtcbiAgICB9XG5cbn1cblxuZG9jdW1lbnQuYWRkRXZlbnRMaXN0ZW5lcignY2xpY2snLCAoZXZlbnQpID0+IHtcbiAgICBpZiAoZXZlbnQudGFyZ2V0Lm1hdGNoZXMoJyNhYm91dCcpKSB7XG4gICAgICAgIGNsZWFyKCk7XG4gICAgICAgIGNvbnRlbnQuY2xhc3NMaXN0LmFkZCgnYWJvdXQtcGFnZScpOyAgXG4gICAgICAgIGFib3V0KCk7XG4gICAgfVxuXG4gICAgaWYgKGV2ZW50LnRhcmdldC5tYXRjaGVzKCcjaG9tZScpKSB7XG4gICAgICAgIGNsZWFyKCk7XG4gICAgICAgIGNvbnRlbnQuY2xhc3NMaXN0LmFkZCgnaG9tZS1wYWdlJyk7ICBcbiAgICAgICAgaG9tZSgpO1xuICAgIH1cblxuICAgIGlmIChldmVudC50YXJnZXQubWF0Y2hlcygnI2NvbnRhY3QnKSkge1xuICAgICAgICBjbGVhcigpO1xuICAgICAgICBjb250ZW50LmNsYXNzTGlzdC5hZGQoJ2NvbnRhY3QtcGFnZScpOyBcbiAgICAgICAgY29udGFjdCgpO1xuICAgIH1cblxuICAgIGlmKGV2ZW50LnRhcmdldC5tYXRjaGVzKFwiI2Rpc2hlc1wiKSl7XG4gICAgICAgIGNsZWFyKCk7XG4gICAgICAgIGNvbnRlbnQuY2xhc3NMaXN0LmFkZCgnZGlzaGVzLXBhZ2UnKTsgXG4gICAgICAgIGRpc2hlcygpO1xuICAgIH1cbn0pOyJdLCJuYW1lcyI6W10sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./src/index.js\n");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _styles_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles.css */ \"./src/styles.css\");\n/* harmony import */ var _pages_about_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./pages/about.js */ \"./src/pages/about.js\");\n/* harmony import */ var _pages_home_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./pages/home.js */ \"./src/pages/home.js\");\n/* harmony import */ var _pages_contact_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./pages/contact.js */ \"./src/pages/contact.js\");\n/* harmony import */ var _pages_dishes_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./pages/dishes.js */ \"./src/pages/dishes.js\");\n\n\n\n\n\n\n\nconst clear = ()=>{\n    const content = document.getElementById(\"content\");\n    while(content.firstChild){\n        content.removeChild(content.firstChild);\n    }\n\n}\n\ndocument.addEventListener('click', (event) => {\n    if (event.target.matches('#about')) {\n        clear();\n        content.classList.add('about-page');  \n        (0,_pages_about_js__WEBPACK_IMPORTED_MODULE_1__.about)();\n    }\n\n    if (event.target.matches('#home')) {\n        clear();\n        content.classList.add('home-page');  \n        (0,_pages_home_js__WEBPACK_IMPORTED_MODULE_2__.home)();\n    }\n\n    if (event.target.matches('#contact')) {\n        clear();\n        content.classList.add('contact-page'); \n        (0,_pages_contact_js__WEBPACK_IMPORTED_MODULE_3__.contact)();\n    }\n\n    if(event.target.matches(\"#dishes\")){\n        clear();\n        content.classList.add('dishes-page'); \n        (0,_pages_dishes_js__WEBPACK_IMPORTED_MODULE_4__.dishes)();\n    }\n});//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvaW5kZXguanMiLCJtYXBwaW5ncyI6Ijs7Ozs7O0FBQXNCO0FBQ2lCO0FBQ0Y7QUFDTTtBQUNGOzs7QUFHekM7QUFDQTtBQUNBO0FBQ0E7QUFDQTs7QUFFQTs7QUFFQTtBQUNBO0FBQ0E7QUFDQTtBQUNBLFFBQVEsc0RBQUs7QUFDYjs7QUFFQTtBQUNBO0FBQ0E7QUFDQSxRQUFRLG9EQUFJO0FBQ1o7O0FBRUE7QUFDQTtBQUNBO0FBQ0EsUUFBUSwwREFBTztBQUNmOztBQUVBO0FBQ0E7QUFDQTtBQUNBLFFBQVEsd0RBQU07QUFDZDtBQUNBLENBQUMiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9yZXN0YXVyYW50LXBhZ2UvLi9zcmMvaW5kZXguanM/YjYzNSJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgXCIuL3N0eWxlcy5jc3NcIjtcbmltcG9ydCB7YWJvdXR9IGZyb20gJy4vcGFnZXMvYWJvdXQuanMnO1xuaW1wb3J0IHtob21lfSBmcm9tICcuL3BhZ2VzL2hvbWUuanMnO1xuaW1wb3J0IHtjb250YWN0fSBmcm9tICcuL3BhZ2VzL2NvbnRhY3QuanMnO1xuaW1wb3J0IHtkaXNoZXN9IGZyb20gJy4vcGFnZXMvZGlzaGVzLmpzJztcblxuXG5jb25zdCBjbGVhciA9ICgpPT57XG4gICAgY29uc3QgY29udGVudCA9IGRvY3VtZW50LmdldEVsZW1lbnRCeUlkKFwiY29udGVudFwiKTtcbiAgICB3aGlsZShjb250ZW50LmZpcnN0Q2hpbGQpe1xuICAgICAgICBjb250ZW50LnJlbW92ZUNoaWxkKGNvbnRlbnQuZmlyc3RDaGlsZCk7XG4gICAgfVxuXG59XG5cbmRvY3VtZW50LmFkZEV2ZW50TGlzdGVuZXIoJ2NsaWNrJywgKGV2ZW50KSA9PiB7XG4gICAgaWYgKGV2ZW50LnRhcmdldC5tYXRjaGVzKCcjYWJvdXQnKSkge1xuICAgICAgICBjbGVhcigpO1xuICAgICAgICBjb250ZW50LmNsYXNzTGlzdC5hZGQoJ2Fib3V0LXBhZ2UnKTsgIFxuICAgICAgICBhYm91dCgpO1xuICAgIH1cblxuICAgIGlmIChldmVudC50YXJnZXQubWF0Y2hlcygnI2hvbWUnKSkge1xuICAgICAgICBjbGVhcigpO1xuICAgICAgICBjb250ZW50LmNsYXNzTGlzdC5hZGQoJ2hvbWUtcGFnZScpOyAgXG4gICAgICAgIGhvbWUoKTtcbiAgICB9XG5cbiAgICBpZiAoZXZlbnQudGFyZ2V0Lm1hdGNoZXMoJyNjb250YWN0JykpIHtcbiAgICAgICAgY2xlYXIoKTtcbiAgICAgICAgY29udGVudC5jbGFzc0xpc3QuYWRkKCdjb250YWN0LXBhZ2UnKTsgXG4gICAgICAgIGNvbnRhY3QoKTtcbiAgICB9XG5cbiAgICBpZihldmVudC50YXJnZXQubWF0Y2hlcyhcIiNkaXNoZXNcIikpe1xuICAgICAgICBjbGVhcigpO1xuICAgICAgICBjb250ZW50LmNsYXNzTGlzdC5hZGQoJ2Rpc2hlcy1wYWdlJyk7IFxuICAgICAgICBkaXNoZXMoKTtcbiAgICB9XG59KTsiXSwibmFtZXMiOltdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./src/index.js\n");
+
+/***/ }),
+
+/***/ "./src/pages/about.js":
+/*!****************************!*\
+  !*** ./src/pages/about.js ***!
+  \****************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   about: () => (/* binding */ about)\n/* harmony export */ });\nconst about = ()=> {\n    const content = document.getElementById(\"content\");\n\n    const header1 = document.createElement(\"div\");\n    header1.textContent = \"About our restaurant\";\n\n    const moreWords = document.createElement(\"div\");\n    moreWords.innerHTML = \"this is more wokds about our beautiful restaurant that we have <br> here so feel free to look to your hearts content.\"\n\n    content.appendChild(header1);\n    content.appendChild(moreWords);\n\n}//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvcGFnZXMvYWJvdXQuanMiLCJtYXBwaW5ncyI6Ijs7OztBQUFPO0FBQ1A7O0FBRUE7QUFDQTs7QUFFQTtBQUNBOztBQUVBO0FBQ0E7O0FBRUEiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9yZXN0YXVyYW50LXBhZ2UvLi9zcmMvcGFnZXMvYWJvdXQuanM/ZGQ3MSJdLCJzb3VyY2VzQ29udGVudCI6WyJleHBvcnQgY29uc3QgYWJvdXQgPSAoKT0+IHtcbiAgICBjb25zdCBjb250ZW50ID0gZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoXCJjb250ZW50XCIpO1xuXG4gICAgY29uc3QgaGVhZGVyMSA9IGRvY3VtZW50LmNyZWF0ZUVsZW1lbnQoXCJkaXZcIik7XG4gICAgaGVhZGVyMS50ZXh0Q29udGVudCA9IFwiQWJvdXQgb3VyIHJlc3RhdXJhbnRcIjtcblxuICAgIGNvbnN0IG1vcmVXb3JkcyA9IGRvY3VtZW50LmNyZWF0ZUVsZW1lbnQoXCJkaXZcIik7XG4gICAgbW9yZVdvcmRzLmlubmVySFRNTCA9IFwidGhpcyBpcyBtb3JlIHdva2RzIGFib3V0IG91ciBiZWF1dGlmdWwgcmVzdGF1cmFudCB0aGF0IHdlIGhhdmUgPGJyPiBoZXJlIHNvIGZlZWwgZnJlZSB0byBsb29rIHRvIHlvdXIgaGVhcnRzIGNvbnRlbnQuXCJcblxuICAgIGNvbnRlbnQuYXBwZW5kQ2hpbGQoaGVhZGVyMSk7XG4gICAgY29udGVudC5hcHBlbmRDaGlsZChtb3JlV29yZHMpO1xuXG59Il0sIm5hbWVzIjpbXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./src/pages/about.js\n");
+
+/***/ }),
+
+/***/ "./src/pages/contact.js":
+/*!******************************!*\
+  !*** ./src/pages/contact.js ***!
+  \******************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   contact: () => (/* binding */ contact)\n/* harmony export */ });\nconst contact = ()=> {\n\n    const content = document.getElementById(\"content\");\n\n    const header1 = document.createElement(\"div\");\n    header1.textContent = \"Contact Us!\";\n\n    const moreWords = document.createElement(\"div\");\n    moreWords.innerHTML = \"this is more wokds about our beautiful restaurant that we have <br> here so feel free to look to your hearts content.\"\n\n    content.appendChild(header1);\n    content.appendChild(moreWords);\n\n}//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvcGFnZXMvY29udGFjdC5qcyIsIm1hcHBpbmdzIjoiOzs7O0FBQU87O0FBRVA7O0FBRUE7QUFDQTs7QUFFQTtBQUNBOztBQUVBO0FBQ0E7O0FBRUEiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9yZXN0YXVyYW50LXBhZ2UvLi9zcmMvcGFnZXMvY29udGFjdC5qcz8wYWVjIl0sInNvdXJjZXNDb250ZW50IjpbImV4cG9ydCBjb25zdCBjb250YWN0ID0gKCk9PiB7XG5cbiAgICBjb25zdCBjb250ZW50ID0gZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoXCJjb250ZW50XCIpO1xuXG4gICAgY29uc3QgaGVhZGVyMSA9IGRvY3VtZW50LmNyZWF0ZUVsZW1lbnQoXCJkaXZcIik7XG4gICAgaGVhZGVyMS50ZXh0Q29udGVudCA9IFwiQ29udGFjdCBVcyFcIjtcblxuICAgIGNvbnN0IG1vcmVXb3JkcyA9IGRvY3VtZW50LmNyZWF0ZUVsZW1lbnQoXCJkaXZcIik7XG4gICAgbW9yZVdvcmRzLmlubmVySFRNTCA9IFwidGhpcyBpcyBtb3JlIHdva2RzIGFib3V0IG91ciBiZWF1dGlmdWwgcmVzdGF1cmFudCB0aGF0IHdlIGhhdmUgPGJyPiBoZXJlIHNvIGZlZWwgZnJlZSB0byBsb29rIHRvIHlvdXIgaGVhcnRzIGNvbnRlbnQuXCJcblxuICAgIGNvbnRlbnQuYXBwZW5kQ2hpbGQoaGVhZGVyMSk7XG4gICAgY29udGVudC5hcHBlbmRDaGlsZChtb3JlV29yZHMpO1xuXG59Il0sIm5hbWVzIjpbXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./src/pages/contact.js\n");
+
+/***/ }),
+
+/***/ "./src/pages/dishes.js":
+/*!*****************************!*\
+  !*** ./src/pages/dishes.js ***!
+  \*****************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   dishes: () => (/* binding */ dishes)\n/* harmony export */ });\n/* harmony import */ var _images_dishes_jpg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../images/dishes.jpg */ \"./src/images/dishes.jpg\");\n\n\nconst dishes = ()=> {\n\n    const content = document.getElementById(\"content\");\n\n    const header1 = document.createElement(\"div\");\n    header1.textContent = \"Our dishes!\";\n\n    const moreWords = document.createElement(\"div\");\n    moreWords.innerHTML = \"this is more wokds about our beautiful restaurant that we have <br> here so feel free to look to your hearts content.\"\n\n    const dishImage = document.createElement('img');\n    dishImage.src = _images_dishes_jpg__WEBPACK_IMPORTED_MODULE_0__;\n\n    content.appendChild(dishImage);\n    content.appendChild(header1);\n    content.appendChild(moreWords);\n}//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvcGFnZXMvZGlzaGVzLmpzIiwibWFwcGluZ3MiOiI7Ozs7O0FBQWdEOztBQUV6Qzs7QUFFUDs7QUFFQTtBQUNBOztBQUVBO0FBQ0E7O0FBRUE7QUFDQSxvQkFBb0IsK0NBQVk7O0FBRWhDO0FBQ0E7QUFDQTtBQUNBIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vcmVzdGF1cmFudC1wYWdlLy4vc3JjL3BhZ2VzL2Rpc2hlcy5qcz8yODNlIl0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBkaXNoSW1hZ2VTcmMgZnJvbSAnLi4vaW1hZ2VzL2Rpc2hlcy5qcGcnO1xuXG5leHBvcnQgY29uc3QgZGlzaGVzID0gKCk9PiB7XG5cbiAgICBjb25zdCBjb250ZW50ID0gZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoXCJjb250ZW50XCIpO1xuXG4gICAgY29uc3QgaGVhZGVyMSA9IGRvY3VtZW50LmNyZWF0ZUVsZW1lbnQoXCJkaXZcIik7XG4gICAgaGVhZGVyMS50ZXh0Q29udGVudCA9IFwiT3VyIGRpc2hlcyFcIjtcblxuICAgIGNvbnN0IG1vcmVXb3JkcyA9IGRvY3VtZW50LmNyZWF0ZUVsZW1lbnQoXCJkaXZcIik7XG4gICAgbW9yZVdvcmRzLmlubmVySFRNTCA9IFwidGhpcyBpcyBtb3JlIHdva2RzIGFib3V0IG91ciBiZWF1dGlmdWwgcmVzdGF1cmFudCB0aGF0IHdlIGhhdmUgPGJyPiBoZXJlIHNvIGZlZWwgZnJlZSB0byBsb29rIHRvIHlvdXIgaGVhcnRzIGNvbnRlbnQuXCJcblxuICAgIGNvbnN0IGRpc2hJbWFnZSA9IGRvY3VtZW50LmNyZWF0ZUVsZW1lbnQoJ2ltZycpO1xuICAgIGRpc2hJbWFnZS5zcmMgPSBkaXNoSW1hZ2VTcmM7XG5cbiAgICBjb250ZW50LmFwcGVuZENoaWxkKGRpc2hJbWFnZSk7XG4gICAgY29udGVudC5hcHBlbmRDaGlsZChoZWFkZXIxKTtcbiAgICBjb250ZW50LmFwcGVuZENoaWxkKG1vcmVXb3Jkcyk7XG59Il0sIm5hbWVzIjpbXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./src/pages/dishes.js\n");
+
+/***/ }),
+
+/***/ "./src/pages/home.js":
+/*!***************************!*\
+  !*** ./src/pages/home.js ***!
+  \***************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   home: () => (/* binding */ home)\n/* harmony export */ });\nconst home = ()=> {\n    const content = document.getElementById(\"content\");\n\n    const header1 = document.createElement(\"div\");\n    header1.textContent = \"Welcome to our restaurant\";\n\n    const moreWords = document.createElement(\"div\");\n    moreWords.innerHTML = \"this is more wokds about our beautiful restaurant that we have <br> here so feel free to look to your hearts content.\"\n\n    content.appendChild(header1);\n    content.appendChild(moreWords);\n\n}//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvcGFnZXMvaG9tZS5qcyIsIm1hcHBpbmdzIjoiOzs7O0FBQU87QUFDUDs7QUFFQTtBQUNBOztBQUVBO0FBQ0E7O0FBRUE7QUFDQTs7QUFFQSIsInNvdXJjZXMiOlsid2VicGFjazovL3Jlc3RhdXJhbnQtcGFnZS8uL3NyYy9wYWdlcy9ob21lLmpzPzgwNzMiXSwic291cmNlc0NvbnRlbnQiOlsiZXhwb3J0IGNvbnN0IGhvbWUgPSAoKT0+IHtcbiAgICBjb25zdCBjb250ZW50ID0gZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoXCJjb250ZW50XCIpO1xuXG4gICAgY29uc3QgaGVhZGVyMSA9IGRvY3VtZW50LmNyZWF0ZUVsZW1lbnQoXCJkaXZcIik7XG4gICAgaGVhZGVyMS50ZXh0Q29udGVudCA9IFwiV2VsY29tZSB0byBvdXIgcmVzdGF1cmFudFwiO1xuXG4gICAgY29uc3QgbW9yZVdvcmRzID0gZG9jdW1lbnQuY3JlYXRlRWxlbWVudChcImRpdlwiKTtcbiAgICBtb3JlV29yZHMuaW5uZXJIVE1MID0gXCJ0aGlzIGlzIG1vcmUgd29rZHMgYWJvdXQgb3VyIGJlYXV0aWZ1bCByZXN0YXVyYW50IHRoYXQgd2UgaGF2ZSA8YnI+IGhlcmUgc28gZmVlbCBmcmVlIHRvIGxvb2sgdG8geW91ciBoZWFydHMgY29udGVudC5cIlxuXG4gICAgY29udGVudC5hcHBlbmRDaGlsZChoZWFkZXIxKTtcbiAgICBjb250ZW50LmFwcGVuZENoaWxkKG1vcmVXb3Jkcyk7XG5cbn0iXSwibmFtZXMiOltdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./src/pages/home.js\n");
+
+/***/ }),
+
+/***/ "./src/images/dishes.jpg":
+/*!*******************************!*\
+  !*** ./src/images/dishes.jpg ***!
+  \*******************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "8bf828a639cc0d030fdf.jpg";
 
 /***/ })
 
@@ -211,6 +221,18 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _sty
 /******/ 		};
 /******/ 	})();
 /******/ 	
+/******/ 	/* webpack/runtime/global */
+/******/ 	(() => {
+/******/ 		__webpack_require__.g = (function() {
+/******/ 			if (typeof globalThis === 'object') return globalThis;
+/******/ 			try {
+/******/ 				return this || new Function('return this')();
+/******/ 			} catch (e) {
+/******/ 				if (typeof window === 'object') return window;
+/******/ 			}
+/******/ 		})();
+/******/ 	})();
+/******/ 	
 /******/ 	/* webpack/runtime/hasOwnProperty shorthand */
 /******/ 	(() => {
 /******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
@@ -225,6 +247,29 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _sty
 /******/ 			}
 /******/ 			Object.defineProperty(exports, '__esModule', { value: true });
 /******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/publicPath */
+/******/ 	(() => {
+/******/ 		var scriptUrl;
+/******/ 		if (__webpack_require__.g.importScripts) scriptUrl = __webpack_require__.g.location + "";
+/******/ 		var document = __webpack_require__.g.document;
+/******/ 		if (!scriptUrl && document) {
+/******/ 			if (document.currentScript && document.currentScript.tagName.toUpperCase() === 'SCRIPT')
+/******/ 				scriptUrl = document.currentScript.src;
+/******/ 			if (!scriptUrl) {
+/******/ 				var scripts = document.getElementsByTagName("script");
+/******/ 				if(scripts.length) {
+/******/ 					var i = scripts.length - 1;
+/******/ 					while (i > -1 && (!scriptUrl || !/^http(s?):/.test(scriptUrl))) scriptUrl = scripts[i--].src;
+/******/ 				}
+/******/ 			}
+/******/ 		}
+/******/ 		// When supporting browsers where an automatic publicPath is not supported you must specify an output.publicPath manually via configuration
+/******/ 		// or pass an empty string ("") and set the __webpack_public_path__ variable from your code to use your own logic.
+/******/ 		if (!scriptUrl) throw new Error("Automatic publicPath is not supported in this browser");
+/******/ 		scriptUrl = scriptUrl.replace(/#.*$/, "").replace(/\?.*$/, "").replace(/\/[^\/]+$/, "/");
+/******/ 		__webpack_require__.p = scriptUrl;
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/nonce */
